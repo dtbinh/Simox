@@ -1,0 +1,8 @@
+<ManipulationObject name='Can'>
+	<Visualization>
+		<File type='inventor'>./iv/can_online.wrl</File>
+	</Visualization>
+	<CollisionModel>
+		<File type='inventor'>./iv/can_online.wrl</File>
+	</CollisionModel>
+</ManipulationObject>

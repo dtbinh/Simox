@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Scene name="GraspRrtScene">
+	<ManipulationObject name="ManipulationObject">
+    		<File>../objects/Can.xml</File>
+		<GlobalPose>
+			<Transform>
+				<Translation x="0" y="0" z="0"/>
+				<rollpitchyaw units="degree" roll="0" pitch="0" yaw="0"/>
+			</Transform>
+		</GlobalPose>
+	</ManipulationObject>
+
+	<Robot name="shadowhand">
+		<File>robots/Shadow_Dexterous_Hand/shadowhand.xml</File>
+		    <GlobalPose>
+			<Transform>
+				<Translation x="500" y="0" z="185"/>
+				<rollpitchyaw units="degree" roll="0" pitch="0" yaw="0"/>
+			</Transform>
+		</GlobalPose>
+	</Robot>
+
+
+	<Obstacle name="Can1">
+	    <Visualization>
+    		<File type='inventor'>../objects/iv/can_online.wrl</File>
+    		<UseAsCollisionModel/>
+	    </Visualization>
+		<GlobalPose>
+			<Transform>
+				<Translation x="-100" y="-100" z="0"/>
+				<rollpitchyaw units="degree" roll="0" pitch="0" yaw="0"/>
+			</Transform>
+		</GlobalPose>
+	</Obstacle>
+	<Obstacle name="Can2">
+	    <Visualization>
+    		<File type='inventor'>../objects/iv/can_online.wrl</File>
+    		<UseAsCollisionModel/>
+	    </Visualization>
+		<GlobalPose>
+			<Transform>
+				<Translation x="0" y="-100" z="0"/>
+				<rollpitchyaw units="degree" roll="0" pitch="0" yaw="0"/>
+			</Transform>
+		</GlobalPose>
+	</Obstacle>
+	<Obstacle name="Can3">
+	    <Visualization>
+    		<File type='inventor'>../objects/iv/can_online.wrl</File>
+    		<UseAsCollisionModel/>
+	    </Visualization>
+		<GlobalPose>
+			<Transform>
+				<Translation x="100" y="-100" z="0"/>
+				<rollpitchyaw units="degree" roll="0" pitch="0" yaw="0"/>
+			</Transform>
+		</GlobalPose>
+	</Obstacle>
+	<Obstacle name="Can5">
+	    <Visualization>
+    		<File type='inventor'>../objects/iv/can_online.wrl</File>
+    		<UseAsCollisionModel/>
+	    </Visualization>
+		<GlobalPose>
+			<Transform>
+				<Translation x="-100" y="0" z="0"/>
+				<rollpitchyaw units="degree" roll="0" pitch="0" yaw="0"/>
+			</Transform>
+		</GlobalPose>
+	</Obstacle>
+	<Obstacle name="Can6">
+	    <Visualization>
+    		<File type='inventor'>../objects/iv/can_online.wrl</File>
+    		<UseAsCollisionModel/>
+	    </Visualization>
+		<GlobalPose>
+			<Transform>
+				<Translation x="100" y="0" z="0"/>
+				<rollpitchyaw units="degree" roll="0" pitch="0" yaw="0"/>
+			</Transform>
+		</GlobalPose>
+	</Obstacle>
+	<Obstacle name="Can7">
+	    <Visualization>
+    		<File type='inventor'>../objects/iv/can_online.wrl</File>
+    		<UseAsCollisionModel/>
+	    </Visualization>
+		<GlobalPose>
+			<Transform>
+				<Translation x="-100" y="100" z="0"/>
+				<rollpitchyaw units="degree" roll="0" pitch="0" yaw="0"/>
+			</Transform>
+		</GlobalPose>
+	</Obstacle>
+	<Obstacle name="Can8">
+	    <Visualization>
+    		<File type='inventor'>../objects/iv/can_online.wrl</File>
+    		<UseAsCollisionModel/>
+	    </Visualization>
+		<GlobalPose>
+			<Transform>
+				<Translation x="0" y="100" z="0"/>
+				<rollpitchyaw units="degree" roll="0" pitch="0" yaw="0"/>
+			</Transform>
+		</GlobalPose>
+	</Obstacle>
+	<Obstacle name="Can9">
+	    <Visualization>
+    		<File type='inventor'>../objects/iv/can_online.wrl</File>
+    		<UseAsCollisionModel/>
+	    </Visualization>
+		<GlobalPose>
+			<Transform>
+				<Translation x="100" y="100" z="0"/>
+				<rollpitchyaw units="degree" roll="0" pitch="0" yaw="0"/>
+			</Transform>
+		</GlobalPose>
+	</Obstacle>
+  <Obstacle name='Table'>
+	    <Visualization>
+    		<File type='inventor'>objects/iv/table.iv</File>
+    		<UseAsCollisionModel/>
+	    </Visualization>
+    <GlobalPose>
+      <Transform>
+        <Matrix4x4>
+          <row1 c1='1' c2='0' c3='0' c4='-400'/>
+          <row2 c1='0' c2='1' c3='0' c4='500'/>
+          <row3 c1='0' c2='0' c3='1' c4='-815'/>
+          <row4 c1='0' c2='0' c3='0' c4='1'/>
+        </Matrix4x4>
+      </Transform>
+    </GlobalPose>
+  </Obstacle>
+</Scene>
+
